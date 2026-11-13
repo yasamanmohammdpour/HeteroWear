@@ -1,0 +1,6 @@
+name: pamap2
+raw_path: ${DATA_ROOT}/pamap2
+window_sec: 10.0
+stride_sec: 2.0
+min_coverage_frac: 0.5
+normalization: dataset

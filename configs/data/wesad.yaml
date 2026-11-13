@@ -1,0 +1,7 @@
+name: wesad
+raw_path: ${DATA_ROOT}/wesad
+window_sec: 10.0
+stride_sec: 2.0
+min_coverage_frac: 0.5
+normalization: subject
+notes: "affect-state labels live in extra[]; activity_label is None by design"

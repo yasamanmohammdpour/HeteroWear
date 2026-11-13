@@ -1,0 +1,6 @@
+name: ppg_dalia
+raw_path: ${DATA_ROOT}/ppg_dalia
+window_sec: 10.0
+stride_sec: 2.0
+min_coverage_frac: 0.5
+normalization: subject   # HR/PPG work wants per-subject stats, not pooled

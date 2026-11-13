@@ -1,0 +1,6 @@
+name: hhar
+raw_path: ${DATA_ROOT}/hhar
+window_sec: 5.0
+stride_sec: 2.5
+min_coverage_frac: 0.3   # irregular sampling — lower bar to avoid dropping too many windows
+normalization: dataset

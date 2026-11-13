@@ -1,0 +1,6 @@
+name: wisdm
+raw_path: ${DATA_ROOT}/wisdm
+window_sec: 5.0
+stride_sec: 2.5
+min_coverage_frac: 0.5
+normalization: dataset

@@ -1,0 +1,62 @@
+dataset,raw_label_or_id,canonical_activity,cross_dataset_comparable,notes
+pamap2,1,lying,yes,
+pamap2,2,sitting,yes,
+pamap2,3,standing,yes,
+pamap2,4,walking,yes,
+pamap2,5,running,yes,
+pamap2,6,cycling,yes,
+pamap2,7,nordic_walking,partial,map to walking if pooling with datasets lacking this class
+pamap2,12,ascending_stairs,yes,
+pamap2,13,descending_stairs,yes,
+pamap2,9,watching_tv,no,no equivalent in other datasets
+pamap2,10,computer_work,no,no equivalent in other datasets
+pamap2,11,car_driving,no,no equivalent in other datasets
+pamap2,16,vacuum_cleaning,no,no equivalent in other datasets
+pamap2,17,ironing,no,no equivalent in other datasets
+pamap2,18,folding_laundry,partial,compare with wisdm folding_clothes only with caveat
+pamap2,19,house_cleaning,no,no equivalent
+pamap2,20,playing_soccer,no,no equivalent
+pamap2,24,rope_jumping,no,no equivalent
+uci_har,1,walking,yes,
+uci_har,2,ascending_stairs,yes,
+uci_har,3,descending_stairs,yes,
+uci_har,4,sitting,yes,
+uci_har,5,standing,yes,
+uci_har,6,lying,yes,
+harth,1,walking,yes,
+harth,2,running,yes,
+harth,6,standing,yes,
+harth,7,sitting,yes,
+harth,8,lying,yes,
+harth,4,ascending_stairs,yes,
+harth,5,descending_stairs,yes,
+harth,13,cycling_sit,partial,map to cycling if pooling
+harth,14,cycling_stand,partial,map to cycling if pooling
+harth,3,shuffling,no,no equivalent — VERIFY definition against HARTH paper
+wisdm,A,walking,yes,
+wisdm,B,jogging,partial,compare with pamap2/harth 'running' only with caveat (jogging != running intensity)
+wisdm,C,stairs,partial,does not distinguish ascending/descending — cannot merge with pamap2/uci_har/harth stair classes without loss
+wisdm,D,sitting,yes,
+wisdm,E,standing,yes,
+wisdm,M,kicking_ball,no,no equivalent
+wisdm,O,playing_catch,no,no equivalent
+wisdm,P,dribbling,no,no equivalent
+hhar,walk,walking,yes,
+hhar,sit,sitting,yes,
+hhar,stand,standing,yes,
+hhar,bike,cycling,yes,
+hhar,stairsup,ascending_stairs,yes,
+hhar,stairsdown,descending_stairs,yes,
+wesad,baseline,affect_baseline,no,DIFFERENT LABEL SPACE — affect state, not physical activity; never merge into activity taxonomy above
+wesad,stress,affect_stress,no,DIFFERENT LABEL SPACE
+wesad,amusement,affect_amusement,no,DIFFERENT LABEL SPACE
+wesad,meditation,affect_meditation,no,DIFFERENT LABEL SPACE
+ppg_dalia,1,sitting,yes,
+ppg_dalia,2,stairs,partial,does not distinguish ascending/descending
+ppg_dalia,4,cycling,yes,
+ppg_dalia,7,walking,yes,
+ppg_dalia,3,table_soccer,no,no equivalent
+ppg_dalia,5,driving,no,no equivalent
+ppg_dalia,6,lunch_break,no,no equivalent
+ppg_dalia,8,working,no,no equivalent
+mmash,n/a,n/a,no,no per-sample activity taxonomy; Activity.csv diary is coarse and not integrated here

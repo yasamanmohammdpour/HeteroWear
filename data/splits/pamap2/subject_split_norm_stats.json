@@ -1,0 +1,110 @@
+{
+  "hand_ACC": {
+    "mean": [
+      NaN,
+      NaN,
+      NaN
+    ],
+    "std": [
+      NaN,
+      NaN,
+      NaN
+    ]
+  },
+  "hand_GYRO": {
+    "mean": [
+      NaN,
+      NaN,
+      NaN
+    ],
+    "std": [
+      NaN,
+      NaN,
+      NaN
+    ]
+  },
+  "hand_MAG": {
+    "mean": [
+      NaN,
+      NaN,
+      NaN
+    ],
+    "std": [
+      NaN,
+      NaN,
+      NaN
+    ]
+  },
+  "chest_ACC": {
+    "mean": [
+      NaN,
+      NaN,
+      NaN
+    ],
+    "std": [
+      NaN,
+      NaN,
+      NaN
+    ]
+  },
+  "chest_GYRO": {
+    "mean": [
+      NaN,
+      NaN,
+      NaN
+    ],
+    "std": [
+      NaN,
+      NaN,
+      NaN
+    ]
+  },
+  "chest_MAG": {
+    "mean": [
+      NaN,
+      NaN,
+      NaN
+    ],
+    "std": [
+      NaN,
+      NaN,
+      NaN
+    ]
+  },
+  "ankle_ACC": {
+    "mean": [
+      NaN,
+      NaN,
+      NaN
+    ],
+    "std": [
+      NaN,
+      NaN,
+      NaN
+    ]
+  },
+  "ankle_GYRO": {
+    "mean": [
+      NaN,
+      NaN,
+      NaN
+    ],
+    "std": [
+      NaN,
+      NaN,
+      NaN
+    ]
+  },
+  "ankle_MAG": {
+    "mean": [
+      NaN,
+      NaN,
+      NaN
+    ],
+    "std": [
+      NaN,
+      NaN,
+      NaN
+    ]
+  }
+}

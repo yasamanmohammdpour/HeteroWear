@@ -1,0 +1,24 @@
+# --- data, checkpoints, logs: NEVER committed (large and/or governed data) ---
+data/raw
+data/interim
+data/processed
+checkpoints
+logs
+*.pt
+*.pth
+*.pkl
+*.npz
+*.zip
+
+# --- experiment outputs: never committed (regenerate with jobs/) ---
+results
+figures/*.pdf
+figures/*.png
+
+# --- python / editor ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+.DS_Store

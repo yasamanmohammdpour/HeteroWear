@@ -1,0 +1,7 @@
+name: mmash
+raw_path: ${DATA_ROOT}/mmash
+window_sec: 60.0        # 1Hz actigraphy — short windows carry little signal
+stride_sec: 30.0
+min_coverage_frac: 0.5
+normalization: subject
+notes: "verify RR.csv / Actigraph.csv column names against a real subject before full run"

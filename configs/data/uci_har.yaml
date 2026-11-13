@@ -1,0 +1,6 @@
+name: uci_har
+raw_path: ${DATA_ROOT}/uci_har
+window_sec: 2.56   # matches original UCI-HAR fixed-window convention (128 samples @ 50Hz)
+stride_sec: 1.28
+min_coverage_frac: 0.5
+normalization: dataset
