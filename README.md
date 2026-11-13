@@ -2,7 +2,8 @@
 
 **Sensor-Aware Self-Supervised Learning for Heterogeneous Wearable Activity Recognition**
 
-Yasaman Mohammadpour, Pouya Shaeri — School of Computing and Augmented Intelligence, Arizona State University
+Yasaman Mohammadpour, Pouya Shaeri  
+School of Computing and Augmented Intelligence, Arizona State University
 
 HeteroWear pretrains one representation across eight wearable datasets that differ in sensors, body
 locations, devices and sampling rates, and keeps it usable when the set of available sensors changes.
@@ -48,7 +49,7 @@ symlinks into scratch storage. Subject splits and normalization statistics are i
 ## Pipeline
 
 ```bash
-# 0. audit raw files (NaNs, timestamps, rates) — run first on every new download
+# 0. audit raw files (NaNs, timestamps, rates): run first on every new download
 python scripts/preprocess/00_audit_raw_data.py --dataset all --data_root data/raw --limit_subjects 2
 # 1. (HHAR only) split the large CSVs by user
 python scripts/preprocess/01_split_hhar_by_user.py --hhar_dir data/raw/hhar
@@ -81,4 +82,4 @@ python scripts/viz/plot_robustness_heterowear.py --out figures/robustness_hetero
 
 ## License
 
-To be decided by the authors.
+Released under the [MIT License](LICENSE).
