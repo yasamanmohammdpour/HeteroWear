@@ -86,7 +86,7 @@ class CrossSensorEncoder(nn.Module):
     across body locations, etc.) via a padding-masked Transformer over
     the variable-length sensor set."""
 
-    def __init__(self, d_model: int, n_layers: int = 2, n_heads: int = 4, dropout: float = 0.1):
+    def __init__(self, d_model: int, n_layers: int = 4, n_heads: int = 4, dropout: float = 0.1):
         super().__init__()
         layer = nn.TransformerEncoderLayer(d_model, n_heads, dim_feedforward=d_model * 4,
                                             dropout=dropout, batch_first=True, norm_first=True)
@@ -127,7 +127,7 @@ class LatentFusion(nn.Module):
 class HeteroWearEncoder(nn.Module):
     def __init__(self, d_model: int = 128, n_patches: int = 8, samples_per_patch: int = 16,
                  temporal_layers: int = 2, temporal_heads: int = 4,
-                 cross_sensor_layers: int = 2, cross_sensor_heads: int = 4,
+                 cross_sensor_layers: int = 4, cross_sensor_heads: int = 4,
                  n_latent_queries: int = 4, latent_layers: int = 1, latent_heads: int = 4,
                  dropout: float = 0.1, use_context: bool = True):
         super().__init__()

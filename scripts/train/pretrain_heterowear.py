@@ -166,7 +166,7 @@ def main():
     ap.add_argument("--samples_per_patch", type=int, default=16)
     ap.add_argument("--temporal_layers", type=int, default=2)
     ap.add_argument("--temporal_heads", type=int, default=4)
-    ap.add_argument("--cross_sensor_layers", type=int, default=2)
+    ap.add_argument("--cross_sensor_layers", type=int, default=4)
     ap.add_argument("--cross_sensor_heads", type=int, default=4)
     ap.add_argument("--n_latent_queries", type=int, default=4)
     ap.add_argument("--latent_layers", type=int, default=1)

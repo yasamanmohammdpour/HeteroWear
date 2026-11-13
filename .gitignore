@@ -22,3 +22,6 @@ __pycache__/
 .pytest_cache/
 .vscode/
 .DS_Store
+*.err
+*.out
+*.log
