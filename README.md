@@ -87,7 +87,7 @@ python scripts/viz/plot_robustness_heterowear.py --out figures/robustness_hetero
 If you use this code, please cite:
 
 ```bibtex
-@inproceedings{mohammadpour2026heterowear,
+@article{mohammadpour2026heterowear,
   title     = {HeteroWear: Sensor-Aware Self-Supervised Learning for Heterogeneous Wearable Activity Recognition},
   author    = {Mohammadpour, Yasaman and Shaeri, Pouya},
   booktitle = {IEEE International Conference on Big Data (IEEE BigData)},
