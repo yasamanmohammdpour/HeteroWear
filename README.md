@@ -5,6 +5,8 @@
 Yasaman Mohammadpour, Pouya Shaeri  
 School of Computing and Augmented Intelligence, Arizona State University
 
+Paper: *HeteroWear: Sensor-Aware Self-Supervised Learning for Heterogeneous Wearable Activity Recognition*, IEEE International Conference on Big Data (IEEE BigData), 2026.
+
 HeteroWear pretrains one representation across eight wearable datasets that differ in sensors, body
 locations, devices and sampling rates, and keeps it usable when the set of available sensors changes.
 Within-sensor temporal modeling is separated from cross-sensor relational modeling, and a missing
@@ -78,6 +80,19 @@ Aggregate outputs into tables / figure:
 ```bash
 python scripts/analysis/make_tables.py --out results/tables.md
 python scripts/viz/plot_robustness_heterowear.py --out figures/robustness_heterowear.pdf
+```
+
+## Citation
+
+If you use this code, please cite:
+
+```bibtex
+@inproceedings{mohammadpour2026heterowear,
+  title     = {HeteroWear: Sensor-Aware Self-Supervised Learning for Heterogeneous Wearable Activity Recognition},
+  author    = {Mohammadpour, Yasaman and Shaeri, Pouya},
+  booktitle = {IEEE International Conference on Big Data (IEEE BigData)},
+  year      = {2026}
+}
 ```
 
 ## License
